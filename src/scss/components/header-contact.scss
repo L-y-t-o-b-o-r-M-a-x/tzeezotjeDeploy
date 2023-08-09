@@ -1,9 +1,0 @@
-.header-contact {
-  @include flex-v-center;
-  flex-wrap: wrap;
-
-  @include tablet {
-    padding-left: 20px;
-    color: var(--dark);
-  }
-}
