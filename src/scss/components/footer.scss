@@ -1,0 +1,15 @@
+.footer {
+  padding-top: 12px ;
+  padding-bottom: 50px ;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+
+    @include mobile {
+      @include flex-column-center;
+      row-gap:var(--gap);
+    }
+  }
+
+}

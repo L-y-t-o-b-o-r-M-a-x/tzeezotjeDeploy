@@ -1,0 +1,13 @@
+.maps {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+  &__container {
+    grid-column: 12 span;
+  }
+}
+
+.map {
+  height: 576px;
+  width: 100%;
+}

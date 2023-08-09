@@ -1,0 +1,77 @@
+<section class="hero">
+  <div class="container hero__container">
+    <span class="hero__text hero__text--right">OPEN EVERYDAY</span>
+    <span class="hero__text">6AM&#160;&#8211;&#160;9PM</span>
+    <h1 class="hero__title">A bad day with lunch is better than a good day without it.</h1>
+
+    <div class="hero__order">
+
+      <button class="hero__btn btn-reset modal-btn" data-graph-path="first" type="submit" aria-label="Reserve a table">Reserve a table</button>
+
+      <div class="graph-modal">
+        <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="first">
+          <button class="btn-reset js-modal-close graph-modal__close" aria-label="Close a window">
+          </button>
+          <div class="graph-modal__content">
+
+            <form class="graph-modal__form form-questions forms-2" action="mail.php" enctype="multipart/form-data" method="POST">
+              <input type="hidden" name="admin_email[]" value="emmanyil47@gmail.com">
+              <input type="hidden" name="form_subject" value="letter subject">
+              <h3 class="title graph-modal__title-form">Reserve</h3>
+              <p class="graph-modal__text descr">
+                The manager will call you back as soon as possible and answer all your questions
+              </p>
+                <label class="form-questions__label">
+                  <span class="form-questions__caption">Name</span>
+                  <input class="form-questions__input" type="text" data-validate-field="name" name="name" required placeholder="Input your name">
+                </label>
+                <label class="form-questions__label">
+                  <span class="form-questions__caption">Email</span>
+                  <input class="form-questions__input" type="email" data-validate-field="mail" name="email" placeholder="Input your email">
+                </label>
+              <label class="form-questions__label">
+                <span class="form-questions__caption">Speciale Request</span>
+                <input class="form-questions__input" type="tel" data-validate-field="tel" name="phone" placeholder="Input your phone">
+              </label>
+              <button class="btn-reset form-questions__btn" type="submit">Send</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="social-links hero__links">
+        <ul class="social-links__list social-links__list--hero list-reset">
+          <li class="social-links__item">
+            <a class="social-links__link" href="#" aria-label="Facebook">
+              <svg>
+                <use xlink:href="img/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-links__item">
+            <a class="social-links__link" href="#" aria-label="Instagram">
+              <svg>
+                <use xlink:href="img/sprite.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-links__item">
+            <a class="social-links__link" href="#" aria-label="Twitter">
+              <svg>
+                <use xlink:href="img/sprite.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-links__item">
+            <a class="social-links__link" href="#" aria-label="YouTube">
+              <svg>
+                <use xlink:href="img/sprite.svg#youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
